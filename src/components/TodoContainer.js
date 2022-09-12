@@ -23,7 +23,9 @@ class TodoContainer extends React.Component {
   render() {
     return (
       <div>
-        <TodosList todos={this.state.todos} />
+        <React.StrictMode>
+          <TodosList todos={this.state.todos} />
+        </React.StrictMode>
       </div>
     );
   }
