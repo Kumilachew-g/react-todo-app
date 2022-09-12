@@ -1,5 +1,6 @@
 import React from 'react';
 import TodosList from './TodosList';
+import Header from './Header';
 class TodoContainer extends React.Component {
   state = {
     todos: [
@@ -24,6 +25,7 @@ class TodoContainer extends React.Component {
     return (
       <div>
         <React.StrictMode>
+          <Header />
           <TodosList todos={this.state.todos} />
         </React.StrictMode>
       </div>
