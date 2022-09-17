@@ -15,7 +15,7 @@ In the project directory, you can run:
 
 ## Live Demo
 
-[Coming Soon!](https://kumilachew-g.github.io/react-todo-app/)
+[Live Demo](https://react-todo-app-kg.netlify.app/)
 
 ## Getting Started
 
